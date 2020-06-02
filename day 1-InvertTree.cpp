@@ -18,8 +18,7 @@ public:
         else
         { 
             TreeNode* temp; 
-
-            /* do the subtrees */
+            
             invertTree(root->left); 
             invertTree(root->right); 
 
